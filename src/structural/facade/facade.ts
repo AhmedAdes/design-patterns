@@ -91,3 +91,13 @@ const subsystem1 = new Subsystem1();
 const subsystem2 = new Subsystem2();
 const facade = new Facade(subsystem1, subsystem2);
 clientCode(facade);
+
+// --------------------
+// Execution result
+// --------------------
+// Facade initializes subsystems:
+// Subsystem1: Ready!
+// Subsystem2: Get ready!
+// Facade orders subsystems to perform the action:
+// Subsystem1: Go!
+// Subsystem2: Fire!

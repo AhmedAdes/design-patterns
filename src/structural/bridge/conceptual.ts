@@ -80,3 +80,12 @@ console.log('');
 implementation = new ConcreteImplementationB();
 abstraction = new ExtendedAbstraction(implementation);
 clientCode(abstraction);
+
+// --------------------
+// Execution result
+// --------------------
+// Abstraction: Base operation with:
+// ConcreteImplementationA: Here's the result on the platform A.
+
+// ExtendedAbstraction: Extended operation with:
+// ConcreteImplementationB: Here's the result on the platform B.
